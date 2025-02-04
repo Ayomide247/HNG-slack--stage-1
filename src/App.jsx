@@ -1,5 +1,5 @@
 import { useState } from "react";
-import HomePage from "./components/HomePage";
+import HomePage from "./Pages/HomePage";
 import { ColorSelectionProvider } from "./components/GameContext";
 import ModalView from "./components/ModalView";
 

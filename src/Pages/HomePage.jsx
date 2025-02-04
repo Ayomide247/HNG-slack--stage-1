@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { fadeIn, GameColors } from "../utils/data";
 import React from "react";
 import { motion } from "framer-motion";
-import { useColorSelection } from "./GameContext";
+import { useColorSelection } from "../components/GameContext";
 import { TbArrowBigDownLines } from "react-icons/tb";
 
 const HomePage = () => {
