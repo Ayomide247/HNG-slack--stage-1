@@ -27,8 +27,8 @@ const ModalView = () => {
         isOpen={modalIsOpen}
         onRequestClose={() => setModalIsOpen(false)}
         contentLabel="Score Modal"
-        className="flex flex-col items-center bg-slate-50 mt-10 pb-10 px-6 rounded-lg shadow-lg w-[250px] mx-auto animate-pulse"
-        overlayClassName="fixed inset-0 bg-slate-300/30 flex items-center justify-center"
+        className="flex flex-col items-center bg-slate-50/80 mt-10 pb-10 px-6 rounded-lg shadow-lg w-[250px] mx-auto"
+        overlayClassName="fixed inset-0 bg-slate-300/70 flex items-center justify-center"
         data-testid="scoreModal"
       >
         {score >= 5 ? (
